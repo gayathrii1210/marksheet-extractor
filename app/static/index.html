@@ -300,8 +300,8 @@
     <div class="card">
         <h2>🔐 Authentication</h2>
         <div class="input-row">
-            <input type="text" id="username" placeholder="Username" value="admin" />
-            <input type="password" id="password" placeholder="Password" value="admin123" />
+            <input type="text" id="username" placeholder="Username" />
+            <input type="password" id="password" placeholder="Password"  />
             <button onclick="login()">Get Token</button>
         </div>
         <div id="auth-status"></div>
@@ -501,7 +501,6 @@
         pre.style.display = pre.style.display === 'block' ? 'none' : 'block';
     }
 
-    window.onload = () => login();
 </script>
 
 </body>
